@@ -1,4 +1,6 @@
+import br.com.alura.sreenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.sreenmatch.modelo.Filme;
+import br.com.alura.sreenmatch.modelo.Serie;
 
 public class Principal {
     public static void main(String[] args) {
@@ -6,6 +8,7 @@ public class Principal {
         meuFilme.setNome("Cães de Guerra");
         meuFilme.setAnoDeLancamento(2017);
         meuFilme.setDuracaoEmMinutos(193);
+        System.out.println("Duração do filme: " + meuFilme.getDuracaoEmMinutos());
 
         meuFilme.exibeFichaTecnica();
         meuFilme.avalia(8);
@@ -17,6 +20,24 @@ public class Principal {
         System.out.println("Total de avaliações" + meuFilme.getTotalDeAvaliacoes());
         System.out.println(meuFilme.pegaMedia());
 
+        Serie lost = new Serie();
+        lost.setNome("Lost");
+        lost.setAnoDeLancamento(2001);
+        lost.exibeFichaTecnica();
+        lost.setTemporadas(10);
+        lost.setEpisodiosPorTemporadas(10);
+        lost.setMinutosPorEpsodios(50);
+        System.out.println("Duração da serie " + lost.getDuracaoEmMinutos());
 
-    }
+        Filme outroFilme = new Filme();
+        outroFilme.setNome("Jonh Wick 4");
+        outroFilme.setAnoDeLancamento(2022);
+        outroFilme.setDuracaoEmMinutos(180);
+
+        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+        calculadora.inclui(meuFilme);
+        calculadora.inclui(outroFilme);
+        calculadora.inclui(lost);
+        System.out.println(calculadora.getTempoTotal());
+   }
 }
