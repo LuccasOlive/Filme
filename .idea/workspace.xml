@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19ba2348-99c9-41ce-873b-4b2c65ed68ab" name="Changes" comment="Aula alura POO. dia 2">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/sreenmatch/calculos/CalculadoraDeTempo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/sreenmatch/modelo/Serie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/sreenmatch/modelo/Titulo.java" afterDir="false" />
+    <list default="true" id="19ba2348-99c9-41ce-873b-4b2c65ed68ab" name="Changes" comment="Aula alura POO. dia 3">
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/sreenmatch/calculos/Classificado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/sreenmatch/calculos/Recomendacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/sreenmatch/modelo/Episodios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/alura/sreenmatch/modelo/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/sreenmatch/modelo/Filme.java" afterDir="false" />
@@ -38,14 +38,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "copyright"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Principal" />
@@ -85,12 +85,30 @@
       <option name="project" value="LOCAL" />
       <updated>1701216966662</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Aula alura POO. dia 3">
+      <option name="closed" value="true" />
+      <created>1701302419119</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701302419119</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Aula alura POO. dia 3">
+      <option name="closed" value="true" />
+      <created>1701302471719</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701302471719</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Aula alura POO." />
     <MESSAGE value="Aula alura POO. dia 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aula alura POO. dia 2" />
+    <MESSAGE value="Aula alura POO. dia 3." />
+    <MESSAGE value="Aula alura POO. dia 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aula alura POO. dia 3" />
   </component>
 </project>
